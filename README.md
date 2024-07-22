@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# DiPomodoro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Bem-vindo ao DiPomodoro! Este é um aplicativo de Pomodoro desenvolvido para ajudar você a gerenciar seu tempo de forma eficiente e produtiva. Com uma interface intuitiva, você pode facilmente adicionar suas tarefas e acompanhar o tempo dedicado a cada uma delas.
 
-In the project directory, you can run:
 
-### `npm start`
+## Experimente Online
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Você pode experimentar o DiPomodoro online no seguinte link: [DiPomodoro](https://dipomodoro.vercel.app/). Sinta-se à vontade para testar a aplicação e ver suas funcionalidades em ação!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React com TypeScript**: O projeto foi iniciado com o "Create React App" e utiliza TypeScript para garantir um desenvolvimento mais seguro e eficiente.
+- **Estilização com Sass**: Utilizei Sass para estilização, permitindo uma organização e modularidade aprimoradas no CSS.
+- **CSS Modules**: Aplicamos CSS Modules para evitar conflitos de estilos e garantir que as regras de estilo sejam aplicadas apenas aos componentes desejados.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Abordagem de Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Mobile First**: O design foi desenvolvido com a abordagem mobile first, garantindo que a experiência do usuário seja otimizada para dispositivos móveis antes de ser adaptada para telas maiores.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- O design do DiPomodoro foi criado por Aline Carvalho. Você pode visualizar o protótipo completo no Figma através deste link: [DiPomodoro no Figma](https://www.figma.com/design/1S2snHU88HzNVkVFXGnss3/DiPomodoro?node-id=0-1).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Desenvolvedores
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Desenvolvedor**: Diego Teixeira ([LinkedIn](https://www.linkedin.com/in/diego-teixeira-dev/))
+- **Designer**: Aline Carvalho ([LinkedIn](https://www.linkedin.com/in/aline-carvalho-dev/))
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Como Usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone o Repositório: git clone https://github.com/DiegoTeixeiraPro/dipomodoro
+2. Instale as Dependências: Navegue até o diretório do projeto e execute: npm install
+3. Inicie o Servidor de Desenvolvimento: npm start
+4. Acesse o Aplicativo: Abra o navegador e acesse http://localhost:3000/ para ver o aplicativo em funcionamento.
+
+
+## Imagens do App
+
+![04 Entenda a ferramenta mobile](https://github.com/user-attachments/assets/12063a16-f9bc-49d1-839b-c628e723564c)
+![05 Comece a Estudar mobile p1](https://github.com/user-attachments/assets/31e9a2d4-6a88-4ca4-a0f5-7ef041bfffe4)
+![06 Comece a Estudar mobile p2](https://github.com/user-attachments/assets/7024d283-d533-453b-826a-9416406629ee)
+![01 Entenda a ferramenta](https://github.com/user-attachments/assets/e0be0cc4-7c9a-467c-af83-8a98afc33fb1)
+![02 Comece a Estudar](https://github.com/user-attachments/assets/14671839-98c0-4f44-ab3c-abcd6b976e33)
+![03 Lista Tarefas](https://github.com/user-attachments/assets/733b8897-04a4-4f1c-86a2-69a50e855380)
+
+
+## Caso os links acima não funcionem:
+- DiPomodoro: https://dipomodoro.vercel.app/
+- Figma: https://www.figma.com/design/1S2snHU88HzNVkVFXGnss3/DiPomodoro?node-id=0-1
+- Linkedin Diego Teixeira: https://www.linkedin.com/in/diego-teixeira-dev/
+- Linkedin Aline Carvalho: https://www.linkedin.com/in/aline-carvalho-dev/
