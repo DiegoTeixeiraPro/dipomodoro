@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CA3E34;
+  width: 100%;
+  height: 38px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+
+  @media screen and (min-width: 1280px) {
+    height: 56px;
+  }
+}
+
+
+.p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  font-family: "Kodchasan", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #F4F4F4;
+
+  @media screen and (min-width: 1280px) {
+    gap: 348px;
+    font-size: 25px;
+  }
+}
+
+.p p {
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.3s;
+}
+
+.p p:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+  color: white; /* Mantém o texto branco */
+}

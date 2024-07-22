@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+
+  p {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-family: "Kodchasan", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #CA3E34;
+  }
+
+  a {
+    color: #CA3E34;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 107px;
+  }
+}

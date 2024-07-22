@@ -1,0 +1,112 @@
+.p {
+  padding-top: 50px;
+  margin-left: 20px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  color: #435440;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 25px;
+    margin-left: 0;
+  }
+}
+
+.novaTarefa {
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  margin: 20px;
+  background-color: #5E7859;
+  border-radius: 10px;
+  gap: 15px;
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+
+    label {
+      margin-bottom: 12px;
+      font-family: "Kodchasan", sans-serif;
+      font-size: 16px;
+      color: #F4F4F4;
+
+      @media screen and (min-width: 1280px) {
+        font-size: 25px;
+      }
+    }
+
+    input {
+      width: 100%;
+      height: 38px;
+      padding: 8px 12px 4px;
+      box-sizing: border-box;
+      border: unset;
+      border-radius: 5px;
+      background-color: #435440;
+      box-shadow: 2px 2px 4px #2B2B2B inset;
+      color: #F4F4F4;
+
+      &::placeholder {
+        color: #F4F4F4;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 16px;
+
+        @media screen and (min-width: 1280px) {
+          font-size: 25px;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        font-size: 25px;
+        height: 56px;
+      }
+    }
+  }
+
+  button {
+    color: #5E7859;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 38px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-size: 16px;
+
+    &:active {
+      box-shadow: 2px 2px 4px #0000009F inset;
+      cursor: auto;
+    }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 25px;
+      height: 56px;
+      width: 376px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    gap: 20px;
+
+    .inputContainer {
+      flex: 1 1 45%;
+      margin-bottom: 0;
+    }
+
+    button {
+      flex: none;
+      margin-top: 20px;
+      width: 376px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

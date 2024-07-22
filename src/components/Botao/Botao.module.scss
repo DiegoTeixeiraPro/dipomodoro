@@ -1,0 +1,16 @@
+.botao {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 16px;
+  width: 100%;
+
+  &:active {
+    box-shadow: 2px 2px 4px #0000009F inset;
+  }
+}

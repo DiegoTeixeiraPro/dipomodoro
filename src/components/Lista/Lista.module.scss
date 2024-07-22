@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #435440;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 25px;
+  }
+}
+
+.listaTarefas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}

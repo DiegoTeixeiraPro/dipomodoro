@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1280px) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+  }
+}
