@@ -24,13 +24,13 @@ Bem-vindo ao DiPomodoro! Este é um aplicativo de Pomodoro desenvolvido para aju
 
 ## Design
 
-- O design do DiPomodoro foi criado por Aline Carvalho. Você pode visualizar o protótipo completo no Figma através deste link: [DiPomodoro no Figma](https://www.figma.com/design/1S2snHU88HzNVkVFXGnss3/DiPomodoro?node-id=0-1).
+- O design do DiPomodoro foi criado por Aline Melo. Você pode visualizar o protótipo completo no Figma através deste link: [DiPomodoro no Figma](https://www.figma.com/design/1S2snHU88HzNVkVFXGnss3/DiPomodoro?node-id=0-1).
 
 
 ## Desenvolvedores
 
 - **Desenvolvedor**: Diego Teixeira ([LinkedIn](https://www.linkedin.com/in/diego-teixeira-dev/))
-- **Designer**: Aline Carvalho ([LinkedIn](https://www.linkedin.com/in/aline-carvalho-dev/))
+- **Designer**: Aline Melo ([LinkedIn](https://www.linkedin.com/in/aline-melo-dev/))
 
 
 ## Como Usar
@@ -55,4 +55,4 @@ Bem-vindo ao DiPomodoro! Este é um aplicativo de Pomodoro desenvolvido para aju
 - DiPomodoro: https://dipomodoro.vercel.app/
 - Figma: https://www.figma.com/design/1S2snHU88HzNVkVFXGnss3/DiPomodoro?node-id=0-1
 - Linkedin Diego Teixeira: https://www.linkedin.com/in/diego-teixeira-dev/
-- Linkedin Aline Carvalho: https://www.linkedin.com/in/aline-carvalho-dev/
+- Linkedin Aline Melo: https://www.linkedin.com/in/aline-melo-dev/
